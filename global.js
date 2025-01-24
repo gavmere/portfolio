@@ -5,7 +5,6 @@ function $$(selector, context = document) {
 }
 
 
-
 let pages = [
     { url: '', title: 'Home' },
     { url: 'projects/index.html', title: 'Projects' },
@@ -35,7 +34,6 @@ for (let p of pages) {
     ); 
     nav.append(a);   
   }
-  
 document.body.insertAdjacentHTML(
     'afterbegin',
     `
@@ -48,14 +46,16 @@ document.body.insertAdjacentHTML(
       </label>`
 );  
 
+let select = document.querySelector('.color-scheme select');
+
 if ("colorScheme" in localStorage) {
     document.documentElement.style.setProperty('color-scheme', localStorage.colorScheme);
     select.value = localStorage.colorScheme;
 }
-let select = document.querySelector('.color-scheme select');
+
 select.addEventListener('input', function (event) {
-    localStorage.colorScheme = event.target.value;
     document.documentElement.style.setProperty('color-scheme', event.target.value);
-  });
+    localStorage.colorScheme = event.target.value;
+});
   
   

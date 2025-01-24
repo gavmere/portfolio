@@ -97,7 +97,6 @@ section {
 }
 
 #key-skills {
-  background-color: #fff;
   padding: 40px 40px;
   border-radius: 20px;
 }
@@ -142,15 +141,12 @@ section {
   margin-top: 5px;
 }
 
-/* Experience and Projects */
 #experience article, #projects article {
-  background-color: #fff;
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 20px;
 }
 
-/* Contact Footer */
 footer ul {
   display: flex;
   flex-wrap: wrap;
@@ -160,7 +156,6 @@ footer ul {
   list-style: none;
 }
 
-/* Responsive Breakpoints */
 @media (min-width: 1200px) {
   .skill-item {
     flex: 1 1 calc(25% - 15px);
