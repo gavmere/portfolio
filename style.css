@@ -28,7 +28,9 @@ nav {
   margin-bottom: .25em;
   border-bottom-width: .2em;
   border-bottom-style: solid;
-  border-bottom-color:oklch(80% 3% 200);  
+  --boarder-color: oklch(80% 3% 200 / 40%);
+  border-bottom-color:var(--border-color);;  
+  
   padding-bottom: .2em;
 }
 
@@ -37,7 +39,7 @@ a {
   text-decoration: none;
   color: inherit;
   text-align: center;
-  padding: .5em;
+  padding: .5em;  
 } 
 
 a:hover {
@@ -187,4 +189,12 @@ footer ul {
   .skill-item {
     flex: 1 1 100%;
   }
+}
+
+label.color-scheme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 80%;
+  font-family: inherit;
 }
