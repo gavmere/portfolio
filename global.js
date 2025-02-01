@@ -59,3 +59,55 @@ select.addEventListener('input', function (event) {
 });
   
   
+export async function fetchJSON(url) {
+  try {
+      const response = await fetch(url);
+      if (!response.ok) {
+        throw new Error(`Failed to fetch projects: ${response.statusText}`);
+      }
+      console.log('response', response);
+      const data = await response.json();
+      return data
+
+  } catch (error) {
+      console.error('Error fetching or parsing JSON data:', error);
+  }
+}
+
+
+export function renderProjects(projects, containerElement, headingLevel = 'h2') {
+  const validHeadings = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'];
+  const safeHeadingLevel = validHeadings.includes(headingLevel.toLowerCase()) 
+    ? headingLevel.toLowerCase() 
+    : 'h2';
+
+  containerElement.innerHTML = '';
+
+  if (Array.isArray(projects)) {
+    projects.forEach(project => {
+      const article = document.createElement('article');
+      article.innerHTML = `
+        <${safeHeadingLevel}>${project.title}</${safeHeadingLevel}>
+        <img src="${project.image}" alt="${project.title}">
+        <p>${project.description}</p>
+      `;
+      containerElement.appendChild(article);
+    });
+  }
+}
+
+export async function fetchGitHubData(username) {
+  return fetchJSON(`https://api.github.com/users/${username}`);
+}
+const githubData = await fetchGitHubData('gavmere');
+const profileStats = document.querySelector('#profile-stats');
+if (profileStats) {
+  profileStats.innerHTML = `
+        <dl>
+          <dt>Public Repos:</dt><dd>${githubData.public_repos}</dd>
+          <dt>Public Gists:</dt><dd>${githubData.public_gists}</dd>
+          <dt>Followers:</dt><dd>${githubData.followers}</dd>
+          <dt>Following:</dt><dd>${githubData.following}</dd>
+        </dl>
+    `;
+}

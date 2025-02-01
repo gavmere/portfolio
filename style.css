@@ -193,3 +193,50 @@ label.color-scheme {
   font-size: 80%;
   font-family: inherit;
 }
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+@media (max-width: 900px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}
+#profile-stats {
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 1200px;
+  padding: 1rem;
+}
+
+#profile-stats dl {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+#profile-stats dt {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+#profile-stats dd {
+  margin: 0;
+  font-size: 1.2rem;
+}
