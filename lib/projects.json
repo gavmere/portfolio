@@ -1,62 +1,74 @@
 [
   {
-    "title": "Lorem ipsum dolor sit.",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae corrupti architecto tempora ut, recusandae deleniti aperiam sit facere est aliquid consequatur et eum dolorem nemo consectetur ratione, illum dolores dolorum."
+  "title": "Subset - Random Subset REST API",
+  "year": 2024,
+  "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+  "description": "A REST API microservice for random dataset subset generation with multiple database connectors and local serialization system. Part of a larger machine learning infrastructure project. Built using FastAPI and supporting both SQL and NoSQL databases."
   },
   {
-    "title": "Et totam delectus quibusdam.",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Asperiores hic harum fugit et eveniet in est iure, id expedita aliquam libero non atque error ab vel ea, iste veniam dolore commodi! Dolorum hic id quidem in qui doloribus."
+  "title": "PokeID - Trading Card Identifier",
+  "year": 2024,
+  "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+  "description": "CNN-based system for identifying original Pokemon trading cards, featuring custom data pipeline, web scraping, and image processing tools built with Keras. Includes comprehensive data labeling and batch processing capabilities."
   },
   {
-    "title": "Aliquid aspernatur repellendus officiis.",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Corrupti hic deleniti, asperiores eligendi blanditiis totam vel repellendus sequi sapiente, id est quaerat et mollitia quam a? Quam mollitia vero sapiente possimus harum assumenda quidem praesentium maxime voluptatum deserunt?"
+  "title": "League of Legends Side Analysis",
+  "year": 2024,
+  "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+  "description": "Statistical analysis project examining game outcome correlation with team side positions, utilizing Pandas, NumPy, and Plotly for advanced data visualization and statistical techniques."
   },
   {
-    "title": "Explicabo a natus sequi?",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Sint quisquam ut inventore expedita ducimus distinctio magnam debitis minus a voluptatum necessitatibus blanditiis, in consequuntur autem optio, voluptatem vitae praesentium, magni iure? Saepe et animi nobis? Obcaecati, culpa ut."
+  "title": "Datasaur Royale",
+  "year": 2024,
+  "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+  "description": "Award-winning hackathon project implementing genetic algorithms to optimize dinosaur survival traits in a custom simulation environment using PyGame and reinforcement learning techniques."
   },
   {
-    "title": "Aspernatur perspiciatis ullam officia?",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Quisquam, eaque tempora delectus consequuntur nihil maiores, laboriosam laudantium dolores quis incidunt blanditiis sint nisi maxime nobis. Eligendi quis tempore dolores? Accusantium est et dolorem harum neque cupiditate sequi modi."
+  "title": "Annotate It",
+  "year": 2024,
+  "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+  "description": "Enhanced image annotation tool featuring QOL improvements like autocomplete and rewind functionality, reducing labeling time by 75%. Built with Python and PyQt for efficient data labeling workflows."
   },
   {
-    "title": "Sequi totam a laborum.",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Molestias dolorum consectetur corporis doloribus natus quia iste optio quod numquam sint, iusto tempora delectus nemo ex explicabo enim sit quae odit. Corrupti beatae itaque ratione dolorem ipsam, porro quisquam."
+  "title": "TCG Query System",
+  "year": 2023,
+  "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+  "description": "Advanced trading card game database query system with flexible search parameters and optimization for large dataset handling."
   },
   {
-    "title": "Quod voluptatum eveniet numquam!",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Fuga magni error totam doloribus, voluptatem unde maiores non tempore esse, quasi optio quam placeat ducimus odit veniam blanditiis itaque in veritatis. Id consequatur culpa voluptas asperiores nam quis dolore."
+  "title": "Automated LeetCode",
+  "year": 2023,
+  "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+  "description": "LeetCode is hard, so I programmed doing it automatically (I know it defeats the purpose)."
   },
   {
-    "title": "Quis delectus iste dolorem.",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Sit expedita ad corrupti, veritatis itaque eius placeat optio suscipit est, odit dolore fuga at eveniet culpa minus dolorum soluta, vero amet maiores neque? Recusandae, fugit ex? Doloremque, minus asperiores?"
+  "title": "Capture The Flag Solutions",
+  "year": 2023,
+  "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+  "description": "Repository of cybersecurity challenge solutions and tools developed for various CTF competitions."
   },
   {
-    "title": "Pariatur ex et vitae!",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Quisquam architecto voluptate impedit nihil? Hic pariatur aspernatur rem nam eveniet fugit ipsam ex ratione ipsa, sequi magnam impedit, corrupti facere autem. Quod enim nesciunt possimus deleniti sit autem. Autem."
+  "title": "Flexible Image Hashing",
+  "year": 2022,
+  "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+  "description": "Library of differnt image hasing algos, useful for finding image similarity mostly."
   },
   {
-    "title": "Voluptates aliquam sint facere?",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Saepe culpa voluptate provident id, laborum nemo quas blanditiis voluptatum iure. Dolores numquam, expedita provident adipisci, tempora, non at perferendis architecto nobis veritatis ullam! Quisquam voluptates inventore ipsam quaerat dolor?"
+  "title": "Wikipedia Data Scraper",
+  "year": 2022,
+  "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+  "description": "Efficient web scraping tool specifically designed for extracting and processing Wikipedia article data."
   },
   {
-    "title": "Accusantium nostrum id magnam.",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Iusto libero accusantium, nulla voluptate omnis alias unde at fugit doloribus deleniti tempora consequuntur architecto necessitatibus, cumque blanditiis incidunt beatae facilis harum sint? Ad repellat perspiciatis quas eligendi, amet quam?"
+  "title": "DataFrame SQL Engine",
+  "year": 2021,
+  "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+  "description": "Custom SQL operations implementation for DataFrame manipulation, bridging SQL and pandas functionality."
   },
   {
-    "title": "Ipsa voluptatem sint modi?",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Dolore officiis ipsum, alias vero unde tenetur, aspernatur nostrum corporis numquam explicabo est aliquid sed ratione adipisci omnis eaque? Deleniti obcaecati illum reiciendis. Cum aliquam maxime mollitia error totam vel!"
-  }
+  "title": "Track Handler: DJ Library",
+  "year": 2021,
+  "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+  "description": "Custom DJ library for track management and organization, featuring advanced metadata extraction and search capabilities."
+}
 ]
