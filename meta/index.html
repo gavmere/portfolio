@@ -4,11 +4,35 @@
     <meta charset="UTF-8">
     <script src="../global.js" type="module"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>project 1</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="main.js"></script>
+    <title>Meta</title>
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 <h1>Meta</h1>
-Hi :3
+<section id="stats-container">
+    <h1 class="stats-title">GitHub Stats</h1>
+    <dl id="stats" class="stats-grid"></dl>
+  </section>
+<h2>Commits by time of day</h2>
+<div id="chart"></div>
+<dl id="commit-tooltip" class="info tooltip" hidden>
+    <dt>Commit</dt>
+    <dd>
+      <a href="" id="commit-link" target="_blank"></a>
+    </dd>
+    <dt>Date</dt>
+    <dd id="commit-date"></dd>
+    <dt>Time</dt>
+    <dd id="commit-time"></dd>
+    <dt>Author</dt>
+    <dd id="commit-author"></dd>
+    <dt>Lines Changed</dt>
+    <dd id="commit-lines"></dd>
+  </dl>
+  <p id="selection-count">No commits selected</p>
+  <dl id="language-breakdown" class="stats"></dl>
+  
 </body>
 </html>
