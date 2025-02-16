@@ -5,7 +5,6 @@ let brushSelection = null;
 
 // At the top of the file, add these global variables
 let xScale, yScale;
-
 function brushed(event) {
   brushSelection = event.selection;
   updateSelection();
